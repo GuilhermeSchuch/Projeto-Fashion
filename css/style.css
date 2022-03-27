@@ -91,6 +91,7 @@ aside{
     color: white;
     height: 65vh;
     padding: 4em;
+    overflow-y: hidden;
 }
 
 aside h2{
@@ -118,6 +119,7 @@ aside p{
 article{
     height: 70vh;
     margin-bottom: 3vh;
+    overflow-y: hidden;
 }
 
 #mapa{
@@ -201,6 +203,10 @@ footer{
 
     .cards{
         display: block;
+    }
+
+    aside{
+        overflow-y: visible;
     }
 
     aside h2{
