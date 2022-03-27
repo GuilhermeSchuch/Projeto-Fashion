@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align:center;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+body{
+    margin: .5em 13em;
+}
+
+/* HEADER */
+header{
+    background-image: url(../img/topo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 67.8vh;
+    margin-top: 7vh;
+}
+
+header nav{
+    height: 11vh;
+    background-color: #3b3b4f;;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul{
+    align-self: center;
+    padding-right: 4vw;
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline;
+    padding-right: 1.5vw;
+}
+
+header nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #b3b3ff;
+}
+
+.logo{
+    height: 5vh;
+    align-self: center;
+    padding-left: 10vw;
+}
+
+/* MAIN */
+.textos{
+    margin: 13vh 0;
+}
+
+.textos h1{
+	font-size: 2.5em;
+    color: #262626;
+}
+
+.textos p{
+    color: #404040;
+    font-size: 1.2em;
+	line-height: 2;
+    margin-top: 4vh;
+}
+
+.cards{
+    display: flex;
+    margin-bottom: 13vh;
+    justify-content: space-around;
+}
+
+.card-text{
+    color: #737373;
+	font-size: 1.1em;
+	line-height: 2;
+}
+
+h3{
+    letter-spacing: 4px;
+	color: #262626;
+	text-transform: uppercase;
+	font-size: 1.1em;
+}
+
+aside{
+    background-color: #003851;
+    color: white;
+    height: 65vh;
+    padding: 4em;
+}
+
+aside h2{
+    font-size: 2.8em;
+    max-width: 85%;
+    text-align: left;
+}
+
+aside p{
+    font-size: .9em;
+    line-height: 1.5;
+    text-align: left;
+    max-width: 55%;
+    margin-top: 4vh;
+}
+
+.contato{
+    margin: 7vh;
+    color: #003851;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+article{
+    height: 70vh;
+    margin-bottom: 3vh;
+}
+
+#mapa{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    background-color: #00001a;
+	color: #f2f2f2;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding: 2em;
+}
+
+@media (max-width: 1150px) {
+    header{
+        background-size: 110%;
+    }
+
+    header nav{
+        height: 7vh;
+    }
+
+    .textos{
+        margin: 10vh 0 10vh;
+    }
+
+    .cards{
+        gap: 0.5em;
+    }
+
+    aside{
+        height: 70vh;
+    }
+
+    aside h2{
+        max-width: 100%;
+    }
+
+    aside p{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+    body{
+        margin: .5em 10em;
+    }
+
+    header{
+        background-size: 130%;
+    }
+
+    .textos{
+        margin: 4vh 0 7vh;
+    }
+
+    .cards{
+        margin-bottom: 13vh;
+    }
+
+    .logo{
+        padding-left: 1vw;
+    }
+
+}
+
+@media (max-width: 884px) {
+    body{
+        margin: .5em 8em;
+    }
+
+    header nav ul{
+        padding-right: 1vw;
+    }
+    
+    header nav ul li{
+        padding-right: 1vw;
+    }
+
+    .cards{
+        display: block;
+    }
+
+    aside h2{
+        font-size: 1.8em;
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 841px) {
+    header nav ul{
+        padding-right: 1vw;
+    }
+    
+    header nav ul li{
+        padding-right: .8vw;
+        font-size: .7em;
+    }
+
+    .logo{
+        width: 9vw;
+        height: 5vh;
+    }
+
+    aside h2{
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 810px) {
+    body{
+        margin: .5em 7em;
+    }
+
+    .textos{
+        margin-top: -13vh;
+    }
+
+}
+
+@media (max-width: 810px) {
+    body{
+        margin: .5em 3em;
+    }
+}
+
+@media (max-width: 520px) {
+    body{
+        margin: .5em 1em;
+    }
+}
+
+@media (max-width: 450px) {
+    body{
+        margin: .5em .2em;
+    }
+
+    .textos{
+        margin-top: -27vh;
+    }
+}
+
+@media (max-width: 430px) {
+    body{
+        margin: -3em 0;
+    }
+
+    header{
+        background-size: cover;
+        background-position: -11em;
+    }
+
+    .logo{
+        width: 15vw;
+    }
+
+    .textos{
+        margin-top: 13vh;
+    }
+}
+
+@media (max-width: 388px) {
+    aside{
+        padding: 2em;
+    }
+}
+
